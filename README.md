@@ -34,15 +34,21 @@ Linguagem HTML/CSS/JAVASCRIPT
 ---
 🎯 Exemplo de Inscrição
 Quando o programa for executado, o usuário verá um formulário simples no site, por exemplo:
-Botões com ações
+
+Botões com ações:
+
 Preenchimento de dados:
+
 envio de documentos de comprovação dos dados:
 usuario:
-senha:
-login e pronto.
-Seja Bem-vindo ao Curso de Programação!
 
+senha:
+
+login e pronto.
+
+Seja Bem-vindo ao Curso de Programação!
 ---
+
 Por favor, preencha os seguintes dados para se inscrever:
 
 Nome: João da Silva
