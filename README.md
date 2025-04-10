@@ -68,12 +68,12 @@ Inscrição realizada com sucesso!
 ---
 
 📂 Organização do Projeto por:
+```bash
+-VÍDEO AULAS.
 
-VÍDEO AULAS.
+-ATIVIDADES.
 
-ATIVIDADES.
-
-PROJETOS.
+-PROJETOS.
 
 ---
 
