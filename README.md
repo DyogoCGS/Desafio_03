@@ -21,47 +21,46 @@ Este projeto é um formulário de inscrição para o **Curso de Programação**.
    cd inscricao-curso-programacao
 
 
-Compile o código: O código pode ser compilado usando o GCC:
+Compile o código: O código pode ser compilado usando o visual studio code:
 
-bash
-Copiar
-Editar
-gcc main.c -o inscricao
+Copiar a pasta
+abrir o index.html
 Execute o programa:
 
-bash
-Copiar
-Editar
-./inscricao
-Siga as instruções no terminal para se inscrever no curso.
+Siga as instruções no site para se inscrever no curso.
 
 🛠️ Tecnologias Usadas
-Linguagem C
-
-Entrada e saída via terminal (scanf, printf)
+Linguagem HTML/CSS/JAVASCRIPT
 
 🎯 Exemplo de Inscrição
-Quando o programa for executado, o usuário verá um formulário simples no terminal, por exemplo:
-
-text
-Copiar
-Editar
-Bem-vindo ao Curso de Programação!
+Quando o programa for executado, o usuário verá um formulário simples no site, por exemplo:
+Botões com ações
+Preenchimento de dados:
+envio de documentos de comprovação dos dados:
+usuario:
+senha:
+login e pronto.
+Seja Bem-vindo ao Curso de Programação!
 
 Por favor, preencha os seguintes dados para se inscrever:
-
 Nome: João da Silva
 E-mail: joao.silva@email.com
-Curso desejado: Curso de C Básico
+IDADE:
+SEXO:
+OUTROS.
+Curso desejado: HTML
 
 Inscrição realizada com sucesso!
+
 📂 Organização do Projeto
-arduino
-Copiar
-Editar
+Vídeo AULAS
+ATIVDADES
+PROJETOS
+
 📁 inscricao-curso-programacao
-├── main.c           # Código principal do formulário de inscrição
+├── HTML             # Código principal do formulário de inscrição
 ├── README.md        # Instruções do projeto
+
 ✅ Boas práticas adotadas
 Validação simples dos dados inseridos.
 
