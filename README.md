@@ -1,6 +1,6 @@
 # 🖥️ Formulário de Inscrição para o Curso de Programação
 
-Este projeto é um formulário de inscrição para o **Curso de Programação**. Ele permite que os interessados se inscrevam no curso fornecendo informações como nome, e-mail, e o curso que desejam fazer. O formulário foi implementado para ser executado no **modo terminal**.
+Este projeto é um formulário de inscrição para o **Curso de Programação**. Ele permite que os interessados se inscrevam no curso fornecendo informações como nome, e-mail, e o curso que desejam fazer. O formulário foi implementado para ser executado no **Visual_studio_code**.
 
 ---
 
