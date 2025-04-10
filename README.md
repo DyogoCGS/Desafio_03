@@ -20,7 +20,7 @@ Este projeto é um formulário de inscrição para o **Curso de Programação**.
    git clone https://github.com/DyogoCGS/Desafio_03
    cd inscricao-curso-programacao
 
-  ```bash
+
 Compile o código: O código pode ser compilado usando o visual studio code:
 
 Copiar a pasta
@@ -28,10 +28,10 @@ abrir o index.html
 Execute o programa:
 
 Siga as instruções no site para se inscrever no curso.
-  ```bash
+
 🛠️ Tecnologias Usadas
 Linguagem HTML/CSS/JAVASCRIPT
-  ```bash
+
 🎯 Exemplo de Inscrição
 Quando o programa for executado, o usuário verá um formulário simples no site, por exemplo:
 Botões com ações
@@ -41,7 +41,7 @@ usuario:
 senha:
 login e pronto.
 Seja Bem-vindo ao Curso de Programação!
-  ```bash
+
 Por favor, preencha os seguintes dados para se inscrever:
 Nome: João da Silva
 E-mail: joao.silva@email.com
@@ -51,16 +51,16 @@ OUTROS.
 Curso desejado: HTML
 
 Inscrição realizada com sucesso!
-  ```bash
+
 📂 Organização do Projeto
 Vídeo AULAS
 ATIVDADES
 PROJETOS
-  ```bash
+
 📁 inscricao-curso-programacao
 ├── HTML             # Código principal do formulário de inscrição
 ├── README.md        # Instruções do projeto
-  ```bash
+
 ✅ Boas práticas adotadas
 Validação simples dos dados inseridos.
 
