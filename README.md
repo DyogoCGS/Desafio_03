@@ -23,7 +23,7 @@ Este projeto é um formulário de inscrição para o **Curso de Programação**.
 Compile o código: O código pode ser compilado usando o visual studio code:
 
 Copiar a pasta
-abrir o index.html
+abrir o índice.html
 Execute o programa:
 
 Siga as instruções no site para se inscrever no curso.
@@ -44,12 +44,18 @@ Seja Bem-vindo ao Curso de Programação!
 
 ---
 Por favor, preencha os seguintes dados para se inscrever:
+
 Nome: João da Silva
+
 E-mail: joao.silva@email.com
+
 IDADE:
+
 SEXO:
+
+Curso desejado: HTML.
+
 OUTROS.
-Curso desejado: HTML
 
 Inscrição realizada com sucesso!
 ---
