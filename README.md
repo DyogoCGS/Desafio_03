@@ -54,9 +54,9 @@ Curso desejado: HTML
 Inscrição realizada com sucesso!
 ---
 📂 Organização do Projeto
-VÍDEO AULAS
-ATIVIDADES
-PROJETOS
+VÍDEO AULAS.
+ATIVIDADES.
+PROJETOS.
 
 ---
 
