@@ -69,6 +69,8 @@ PROJETOS.
 ├── HTML             # Código principal do formulário de inscrição.
 ├── README.md        # Instruções do projeto.
 
+---
+
 ✅ Boas práticas adotadas
 Validação simples dos dados inseridos.
 ---
