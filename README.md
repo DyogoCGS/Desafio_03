@@ -47,7 +47,8 @@ Quando o programa for executado, o usuário verá um formulário simples no site
 
 - login e pronto.
 
-Seja Bem-vindo ao Curso de Programação!
+-Seja Bem-vindo ao Curso de Programação!
+
 ---
 
 ## Por favor, preencha os seguintes dados para se inscrever:
