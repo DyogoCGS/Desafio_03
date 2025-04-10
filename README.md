@@ -64,17 +64,18 @@ Seja Bem-vindo ao Curso de Programação!
 
 - Outros.
 
-Inscrição realizada com sucesso!
----
+- Inscrição realizada com sucesso!
 
+--- 
 📂 Organização do Projeto por:
 
-```bash
+
 -VÍDEO AULAS.
 
 -ATIVIDADES.
 
 -PROJETOS.
+
 ---
 
 📁 inscricao-curso-programacao:
