@@ -74,7 +74,7 @@ Inscrição realizada com sucesso!
 -ATIVIDADES.
 
 -PROJETOS.
-
+```bash
 ---
 
 📁 inscricao-curso-programacao:
