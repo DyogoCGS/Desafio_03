@@ -28,6 +28,7 @@
 </head>
 
 <body>
+    <!--botão para voltar a tela incial-->
     <main class="apresentacao">
         <section class="conteudo">
             <div class="botao__voltar">
@@ -38,7 +39,7 @@
             <h1 class="titulo-destaque">Formulário de Inscrição</h1>
             <h2 class="titulo__pagina__inicial">Preencha os dados abaixo para a realização da inscrição no programa
                 trilhas</h2>
-
+            <!--Formulário foram acrescentados exemplos dentro dos quadros para preenchimento-->
             <div class="info__participantes">
                 <h3>Informações do Participante</h3>
 
@@ -46,7 +47,7 @@
                 <div class="box">
                     <input type="text" placeholder="Seu nome aqui..." required />
                 </div>
-
+                <!--acrescentado o span id "erro-data"caso nao fique conforme o exemplo do span-->
                 <p>Data de nascimento</p>
                 <div class="box">
                     <input type="text" id="data-nascimento" placeholder="dd/mm/aaaa" maxlength="10" required />
@@ -121,7 +122,7 @@
                 <div class="box">
                     <input type="text" placeholder="Seu estado aqui..." required />
                 </div>
-
+                <!--encaminhar o documento para verificação de dados-->
                 <p>Comprovante de Residência</p>
                 <div class="upload-container">
                     <label for="res-upload" class="upload-box">
@@ -130,7 +131,7 @@
                         <input type="file" id="res-upload" accept=".pdf,.jpg,.png" required />
                     </label>
                 </div>
-
+                <!--Foi acrescentado o ID do usuario e senha para login-->
                 <p>ID do Usuário</p>
                 <div class="box">
                     <input type="text" id="id-usuario" placeholder="Digite seu ID..." required />
@@ -140,11 +141,11 @@
                 <div class="box">
                     <input type="password" id="senha" placeholder="Digite sua senha..." required />
                 </div>
-
+                <!--Salvar dados-->
                 <p><input type="checkbox" id="salvar-dados"> Salvar dados</p>
                 <button class="btn-salvar" onclick="salvarDados()">Salvar Dados</button>
             </div>
-
+            <!--Escolha de curso-->
             <h3>Escolha a Trilha de aprendizagem desejada</h3>
             <div class="container">
                 <label class="card">
@@ -187,7 +188,7 @@
                     </div>
                 </label>
             </div>
-
+            <!--Declaraçao de concordância dos termos do curso-->
             <div class="container__acordos">
                 <label class="checkbox-label">
                     <input type="checkbox" required />
@@ -196,7 +197,7 @@
                     <a href="#">Termos e Condições</a> e com a
                     <a href="#">Política de Privacidade</a>.
                 </label>
-
+                <!--Alterando a cor do box no aceito do termos-->
                 <div class="buttons">
                     <button class="btn cancel" type="reset">Cancelar</button>
                     <button class="btn submit" onclick="validarFormulario()">Fazer inscrição</button>
@@ -204,17 +205,17 @@
                 <p id="mensagem-sucesso" style="color: green; font-weight: bold; margin-top: 10px;"></p>
             </div>
         </section>
-
+                <!--Validação das informações-->
         <section class="imagens__lado__a__lado">
             <img src="./imagens/Inscricao2.png" alt="imagem do curso" />
         </section>
     </main>
-
+            <!--verificação dos termos caso nao estiver conforme o codigo ele informará o local a ser corrigido-->
     <script>
         function validarFormulario() {
             const campos = document.querySelectorAll("input[required]");
             let valido = true;
-
+            
             campos.forEach((campo) => {
                 if (!campo.value.trim()) {
                     campo.style.border = "2px solid red";
@@ -266,14 +267,15 @@
                 return;
             }
 
-            // Mensagem de sucesso + redirecionamento
+            // Mensagem de sucesso + redirecionamento//
+            
             document.getElementById("mensagem-sucesso").textContent = "Inscrição realizada com sucesso! Redirecionando...";
             setTimeout(() => {
                 window.location.href = "login.html";
             }, 2000);
-
+            
         }
-
+            // salvando os dados para acesso ao login e compraçao de id e senha
         function salvarDados() {
             const id = document.getElementById("id-usuario").value;
             const senha = document.getElementById("senha").value;
