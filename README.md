@@ -53,16 +53,21 @@ Curso desejado: HTML
 
 Inscrição realizada com sucesso!
 ---
-📂 Organização do Projeto
+
+📂 Organização do Projeto por:
+
 VÍDEO AULAS.
+
 ATIVIDADES.
+
 PROJETOS.
 
 ---
 
-📁 inscricao-curso-programacao
-├── HTML             # Código principal do formulário de inscrição
-├── README.md        # Instruções do projeto
+📁 inscricao-curso-programacao:
+
+├── HTML             # Código principal do formulário de inscrição.
+├── README.md        # Instruções do projeto.
 
 ✅ Boas práticas adotadas
 Validação simples dos dados inseridos.
